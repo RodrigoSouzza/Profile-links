@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Yanone+Kaffeesatz&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{ 
+    background-image: url(assets/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+#conteudo {
+    border: 2px solid black;
+    padding: 20px;
+    background-image: url(assets/background.png);   
+    border-radius: 10px;
+    box-shadow: 5px 3px 3px black;  
+}
+
+#perfil img {
+    min-height: 100px;
+    height: 200px;
+    max-height: 20vh;
+    width: auto;
+    margin: 20px 0;
+    border-radius: 100%; 
+    box-shadow: 3px 2px 2px white;   
+}
+
+#perfil h1{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 40px;
+    color: white;
+    text-shadow: 5px 2px 2px black;    
+}
+
+#perfil p {
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    color: white;
+}
+
+#links li {
+    list-style-type: none;
+}
+
+button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    width: 300px;
+    position: relative;
+    padding: 0.5rem 0.8rem;
+    cursor: pointer;
+    text-align: start;
+}
+
+#links button {
+    border: 1px solid white;
+    box-shadow: 3px 2px 2px white;
+    background-color: transparent;
+    font-size: 18px;
+    border-radius: 25px;
+    margin: 10px;
+    color: white;
+    text-shadow: 3px 2px 2px black; 
+}
+
+#links button:hover{
+    border: 2px soldi gray;
+    box-shadow: 5px 4px 4px white;
+}
+
+.btn_img {
+    margin: 0;
+    height: 30px;
+    margin-right: 15px;
+    margin-left: 5px;
+}
